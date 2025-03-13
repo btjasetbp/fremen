@@ -1,9 +1,24 @@
-html {
+
+header{
+    text-align: center;
+}
+
+header .pfp{
+    width: 100%;
+    height: auto;
+    background-image: url('./../img/paul-heropose-2.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    margin: 0 auto;
+}
+
+header h1{
     font-size: 30px; 
     font-family:
      "Julius Sans One", sans-serif;
     font-optical-sizing: auto;
-    font-weight: <weight>;
+    font-weight: weight;
     font-style: normal;
   }
 
@@ -15,11 +30,5 @@ html, body{
     margin: 0;
     padding: 0;
 }
-header{
-    text-align: center;
-}
 
-header img{
-    width: 100%;
-    height: auto;
-}
+
