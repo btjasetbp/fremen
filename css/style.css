@@ -1,3 +1,12 @@
+html {
+    font-size: 30px; 
+    font-family:
+     "Julius Sans One", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+  }
+
 body{
     background-color: chocolate; 
 }
@@ -8,4 +17,9 @@ html, body{
 }
 header{
     text-align: center;
+}
+
+header img{
+    width: 100%;
+    height: auto;
 }
