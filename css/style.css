@@ -17,6 +17,8 @@ html, body{
 }
 header{
     text-align: center;
+    font-size: 60px;
+    margin-bottom: 100px;
 }
 
 header img{
@@ -24,20 +26,49 @@ header img{
     height: auto;
 }
 
-h1{
+header h1{
     margin: 25px;
 }
 
 main h2{
-   margin: 25px; 
+    font-size: 80px;
 }
 
-main p{
-    margin: 25px;
+.container {
+    max-width: 1800px;
+    margin: 0 auto;
 }
 
-main img{
-    max-width: 1000px;
+.section {
+    display: flex;
+    align-items: center; /* Vertically align text and image */
+    justify-content: space-between; /* Space between text and image */
+    margin-bottom: 100px; /* Space between sections */
+}
+
+.text {
+    flex: 1; /* Text takes up available space */
+    margin-right: 100px; /* Space between text and image */
+}
+
+.image img {
+    max-width: 100%; /* Ensures the image is responsive */
     height: auto;
-    margin: auto;
+    width: 800px; /* Adjust the size of the image */
+}
+
+/* Make the layout responsive */
+@media (max-width: 768px) {
+    .section {
+        flex-direction: column; /* Stack text and image vertically on small screens */
+        text-align: center; /* Center the text on smaller screens */
+    }
+
+    .image {
+        margin-top: 20px; /* Space between text and image when stacked */
+    }
+
+    .image img {
+        width: 80%; /* Adjust image width on smaller screens */
+    }
 }
