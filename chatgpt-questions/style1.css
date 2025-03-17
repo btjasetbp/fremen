@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    align-items: center; /* Ensures the text and image are aligned horizontally */
+    justify-content: space-between; /* Space between the text and image */
+    width: 80%; /* Adjust the width as needed */
+}
+
+.text {
+    flex: 1; /* Text takes up available space */
+}
+
+.image img {
+    max-width: 100%; /* Ensures the image is responsive */
+    height: auto;
+    width: 300px; /* Adjust the size of the image */
+}

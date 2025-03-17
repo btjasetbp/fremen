@@ -26,5 +26,18 @@ header img{
 
 h1{
     margin: 25px;
+}
 
+main h2{
+   margin: 25px; 
+}
+
+main p{
+    margin: 25px;
+}
+
+main img{
+    max-width: 1000px;
+    height: auto;
+    margin: auto;
 }
