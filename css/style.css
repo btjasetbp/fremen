@@ -28,10 +28,12 @@ header img{
 
 header h1{
     margin: 25px;
+    letter-spacing: 7px;
 }
 
 main h2{
     font-size: 80px;
+    letter-spacing: 10px;
 }
 
 .container {
@@ -41,7 +43,7 @@ main h2{
 
 .section {
     display: flex;
-    align-items: center; /* Vertically align text and image */
+    align-items: normal; /* Vertically align text and image */
     justify-content: space-between; /* Space between text and image */
     margin-bottom: 100px; /* Space between sections */
 }
@@ -51,10 +53,21 @@ main h2{
     margin-right: 100px; /* Space between text and image */
 }
 
+p{
+    font-weight: bold;
+}
+
+li{
+    font-weight: bolder;
+    margin-bottom: 15px;
+    
+}
+
 .image img {
     max-width: 100%; /* Ensures the image is responsive */
     height: auto;
     width: 800px; /* Adjust the size of the image */
+    margin-top: 150px;
 }
 
 /* Make the layout responsive */
