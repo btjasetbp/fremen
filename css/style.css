@@ -34,6 +34,7 @@ header h1{
 main h2{
     font-size: 80px;
     letter-spacing: 10px;
+
 }
 
 .container {
@@ -53,13 +54,35 @@ main h2{
     margin-right: 100px; /* Space between text and image */
 }
 
+main{
+    margin-bottom: 100px;
+}
+
 p{
     font-weight: bold;
+    line-height: 37px;
 }
 
 li{
     font-weight: bolder;
     margin-bottom: 15px;
+    
+}
+
+.final {
+    text-align: center;
+    line-height: 10px;
+}
+
+footer{
+    background-color: goldenrod;
+    margin: 0;
+}
+
+footer P{
+    font-size: 16px;
+    text-align: right;
+    margin-right: 25px;
     
 }
 
