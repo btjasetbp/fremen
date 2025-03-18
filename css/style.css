@@ -59,12 +59,13 @@ main h2{
 
 p{
     font-weight: bold;
-    line-height: 37px;
+    line-height: 45px;
 }
 
 li{
     font-weight: bolder;
     margin-bottom: 15px;
+    line-height: 45px;
     
 }
 
