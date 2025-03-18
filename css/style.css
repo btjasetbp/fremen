@@ -106,11 +106,18 @@ footer P{
         margin-left: 20px;
     }
 
-    header h1{
-        font-size: 40px;
+    header img{
+        max-width: 100%;
+        height: auto;
+        
     }
 
-    main p{
+    header h1{
+        font-size: 40px;
+    
+    }
+
+       main p{
         margin-right: 0;
     }
 
