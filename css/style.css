@@ -54,10 +54,7 @@ main h2{
     margin-right: 100px; /* Space between text and image */
 }
 
-main{
-    margin: 100, 0;
 
-}
 
 p{
     font-weight: bold;
@@ -117,8 +114,8 @@ footer P{
     
     }
 
-       main p{
-        margin-right: 0;
+    .text{
+        margin-right: 5px;
     }
 
     main h2{
