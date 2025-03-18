@@ -84,31 +84,53 @@ footer P{
     font-size: 16px;
     text-align: right;
     margin-top: 0px;
-        margin-right: 25px;
-        margin-bottom: 0px;
-        margin-left: 0px;
+    margin-right: 25px;
+    margin-bottom: 0px;
+    margin-left: 0px;
     
 }
 
 .image img {
     max-width: 100%; /* Ensures the image is responsive */
     height: auto;
-    width: 800px; /* Adjust the size of the image */
+    max-width: 800px; /* Adjust the size of the image */
     margin-top: 150px;
 }
 
 /* Make the layout responsive */
-@media (max-width: 768px) {
+@media (max-width: 600px) {
     .section {
         flex-direction: column; /* Stack text and image vertically on small screens */
         text-align: center; /* Center the text on smaller screens */
+        font-size: 20px; 
+    }
+
+    header h1{
+        font-size: 40px;
+    }
+
+    main h2{
+        font-size: 30px;
     }
 
     .image {
-        margin-top: 20px; /* Space between text and image when stacked */
+         /* Space between text and image when stacked */
     }
 
     .image img {
         width: 80%; /* Adjust image width on smaller screens */
+        margin-top: 25px;
     }
+
+    .final{
+        font-size: 20px;
+        line-height: 23px;
+    }
+
+    footer p{
+        font-size: 10px;
+        line-height: 16px;
+    }
+
+    
 }
