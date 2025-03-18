@@ -18,7 +18,7 @@ html, body{
 header{
     text-align: center;
     font-size: 60px;
-    margin-bottom: 100px;
+    background-color: goldenrod;
 }
 
 header img{
@@ -27,7 +27,7 @@ header img{
 }
 
 header h1{
-    margin: 25px;
+    margin: 1px;
     letter-spacing: 7px;
 }
 
@@ -55,7 +55,8 @@ main h2{
 }
 
 main{
-    margin-bottom: 100px;
+    margin: 100, 0;
+
 }
 
 p{
@@ -82,7 +83,10 @@ footer{
 footer P{
     font-size: 16px;
     text-align: right;
-    margin-right: 25px;
+    margin-top: 0px;
+        margin-right: 25px;
+        margin-bottom: 0px;
+        margin-left: 0px;
     
 }
 
