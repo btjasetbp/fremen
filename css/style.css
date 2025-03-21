@@ -134,12 +134,13 @@ footer P{
     
     }
 
+
     .left-image, .right-image {
         width: 50px; /* Adjust as needed */
         height: 50px; /* Adjust as needed */
         margin: 0 50px;
       
-      }
+    }
 
     .text{
         margin-right: 5px;
