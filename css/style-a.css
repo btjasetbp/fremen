@@ -64,7 +64,7 @@ main h2{
 
 .section {
     display: flex;
-    align-items: normal; /* Vertically align text and image */
+    align-items: center; /* Vertically align text and image */
     justify-content: space-between; /* Space between text and image */
     margin-bottom: 100px; /* Space between sections */
 }
@@ -115,7 +115,7 @@ footer P{
     max-width: 100%; /* Ensures the image is responsive */
     height: auto;
     max-width: 800px; /* Adjust the size of the image */
-    margin-top: 150px;
+    margin-top: 45px;
 }
 
 /* Make the layout responsive */
