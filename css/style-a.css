@@ -1,0 +1,178 @@
+html {
+    font-size: 30px; 
+    font-family:
+     "Julius Sans One", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+  }
+
+body{
+    background-color: #005028; 
+}
+
+html, body{
+    margin: 0;
+    padding: 0;
+}
+header{
+    text-align: center;
+    font-size: 60px;
+    background-color: black;
+}
+
+header img{
+    width: 100%;
+    height: auto;
+    
+}
+
+header h1{
+    color: #d5ac32;
+    margin: 1px;
+    letter-spacing: 7px;
+}
+
+.header-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .left-image, .right-image {
+    width: 100px; /* Adjust as needed */
+    height: 100px; /* Adjust as needed */
+    margin: 0 190px;
+  
+  }
+  
+  h1 {
+    margin: 0;
+  }
+
+main h2{
+    color: #d5ac32;
+    font-size: 80px;
+    letter-spacing: 10px;
+
+}
+
+.container {
+    max-width: 1800px;
+    margin: 0 auto;
+}
+
+.section {
+    display: flex;
+    align-items: center; /* Vertically align text and image */
+    justify-content: space-between; /* Space between text and image */
+    margin-bottom: 100px; /* Space between sections */
+}
+
+.text {
+    flex: 1; /* Text takes up available space */
+    margin-right: 100px; /* Space between text and image */
+}
+
+
+
+p{
+    color: #d5ac32;
+    font-weight: bold;
+    line-height: 45px;
+}
+
+li{
+    color: #d5ac32;
+    font-weight: bolder;
+    margin-bottom: 15px;
+    line-height: 45px;
+    
+}
+
+.final {
+    text-align: center;
+    line-height: 10px;
+}
+
+footer{
+    background-color: #d5ac32;
+    margin: 0;
+}
+
+footer P{
+    color: black;
+    font-size: 16px;
+    text-align: right;
+    margin-top: 0px;
+    margin-right: 25px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    
+}
+
+.image img {
+    max-width: 100%; /* Ensures the image is responsive */
+    height: auto;
+    max-width: 800px; /* Adjust the size of the image */
+    margin-top: 45px;
+}
+
+/* Make the layout responsive */
+@media (max-width: 1024px) {
+    .section {
+        flex-direction: column; /* Stack text and image vertically on small screens */
+        text-align: left; /* Align Left the text on smaller screens */
+        font-size: 20px; 
+        margin-left: 20px;
+    }
+
+    header img{
+        max-width: 100%;
+        height: auto;
+        
+    }
+
+    header h1{
+        font-size: 37px;
+    
+    }
+
+
+    .left-image, .right-image {
+        width: 50px; /* Adjust as needed */
+        height: 50px; /* Adjust as needed */
+        margin: 0 50px;
+      
+    }
+
+    .text{
+        margin-right: 5px;
+    }
+
+    main h2{
+        font-size: 30px;
+    }
+
+    .image {
+        margin-right: 20px; /* Space between text and image when stacked */
+        
+    }
+
+    .image img {
+        width: 95%; /* Adjust image width on smaller screens */
+        margin-top: 25px;
+    }
+
+    .final{
+        font-size: 20px;
+        line-height: 23px;
+    }
+
+    footer p{
+        font-size: 10px;
+        line-height: 16px;
+    }
+
+    
+}
