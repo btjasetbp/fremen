@@ -57,6 +57,15 @@ main h2{
 
 }
 
+main h3{
+    color: #d5ac32;
+    font-size: 50px;
+    letter-spacing: 5px;
+    font-style: bold;
+    text-decoration: underline;
+    text-underline-offset: 10px;
+}
+
 .container {
     max-width: 1800px;
     margin: 0 auto;
@@ -118,6 +127,13 @@ footer P{
     margin-top: 45px;
 }
 
+.image-di img {
+    max-width: 100%; /* Ensures the image is responsive */
+    height: auto;
+    max-width: 800px; /* Adjust the size of the image */
+    margin-top: 250px;
+}
+
 /* Make the layout responsive */
 @media (max-width: 1024px) {
     .section {
@@ -160,6 +176,11 @@ footer P{
     }
 
     .image img {
+        width: 95%; /* Adjust image width on smaller screens */
+        margin-top: 25px;
+    }
+
+    .image-di img {
         width: 95%; /* Adjust image width on smaller screens */
         margin-top: 25px;
     }
